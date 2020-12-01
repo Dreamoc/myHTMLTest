@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--块盒子-->
+<div>盒子1</div>
+<div>盒子2</div>
+
+<!--行内盒子-->
+<span>行内盒子1</span>
+<span>行内盒子2</span>
+
+<div>
+    头部
+</div>
+<div>导航</div>
+<div>内容</div>
+<div>
+    <div>
+        <div>标题</div>
+        <div>内容</div>
+    </div>
+    <div>右边</div>
+</div>
+<div>底部</div>
+
+<!--h5 新增 ie678不兼容 不过很多公司不去兼容678 所以用哪种都行-->
+<header>头部</header>
+<nav>导航</nav>
+<div>主体
+    <article>文章
+        <article>
+            标题
+        </article>
+        <section>
+            内容
+        </section>
+    </article>
+    <aside>侧边栏</aside>
+</div>
+<footer>页脚</footer>
+
+<!--
+视频支持：MP4 ogg（移动端） webM(高清格式)
+-->
+<video src="../../../../dreamoc/Desktop/hel.mp4" controls autoplay loop>
+    您的浏览器不支持视频video标签
+</video>
+<video width="400" controls="controls">
+    <source src="../../../../dreamoc/Desktop/hel.mp4" type="video/mp4">
+</video>
+
+<!--
+mp3 ogg wav
+
+-->
+<audio src="a.mp3" controls>
+    您的浏览器不支持音频audio标签
+</audio>
+
+<!--支持哪个使用哪个-->
+<video controls width="300">
+<!--    资源：作用，提供多种视频支持选择-->
+    <source src="a.mp4">
+    <source src="a.ogg">
+    <source src="a.webM">
+</video>
+
+<!--元素的组合-->
+<!--推荐第一种-->
+<dl>
+    <dt>
+        <img src="../images/WechatIMG159.png" alt="">
+        <p align="center">描述</p>
+    </dt>
+</dl>
+
+<figure>
+    <img src="../images/WechatIMG159.png" alt="">
+    <figcaption>描述</figcaption>
+</figure>
+
+<details>
+    <summary>钢铁是怎么炼成的</summary>
+    <p>adhahdhduiahdiahduiahdiaiduhaduiahadduhaduhadiuhasuhduahdiuahduhasiuhudiahdiadiuahiduha</p>
+</details>
+
+<!--刻度-->
+<meter min="0" max="100" value="20" low="20" high="80">
+    您的浏览器不支持
+</meter>
+
+<!--进度-->
+<progress value="60" max="100">
+    您的浏览器不支持
+</progress>
+
+<!--数据列表-->
+<input type="text" list="city">
+<datalist id="city">
+    <option value="北京">bj</option>
+    <option value="北京">bj</option>
+    <option value="北京">bj</option>
+    <option value="北京">bj</option>
+</datalist>
+
+<!--画布-->
+<canvas width="1000" height="200">
+    您的浏览器不支持画布
+</canvas>
+</body>
+</html>

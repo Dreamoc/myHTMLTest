@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--    单标记-空标记-->
+    <!--    meta 搜索引擎-->
+    <meta charset="UTF-8">
+    <meta name="作者" content="描述">
+    <!--    双标记-->
+    <title>Title</title>
+</head>
+<body>
+
+<h1 align="center">一号标题-cenger</h1>
+<h2 align="left">二号标题-left</h2>
+<h3 align="right">三号标题-right</h3>
+<h4>四号标题-默认left</h4>
+
+
+!--
+1、网址
+2、盘符
+3、平级
+4、下一级
+-->
+<!--网址-->
+<img src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_redBlue-0a7c20fcaa.png" alt="提示语句" width="100">
+
+<!--相对路径-->
+<img src="提示" alt="提示语句">
+
+<!--平级-->
+<img src="abc.png" alt="提示语句">
+
+<!--上一级-->
+<img src="../images/WechatIMG159.png" alt="提示语句" title="鼠标悬停">
+
+<!--段落-->
+<p>段落</p>
+<p>段落</p>
+<p>段落</p>
+
+<!--换行  </br>-->1248 16 32 64 128 256 512
+<p>这个是换行标签<br/>换行了</p>
+
+<!--水平线hr-->
+<hr color="red" width="300" align="left" size="5">
+
+<!--常用-->
+<i>倾斜</i>
+<u>下划线</u>
+
+<!--不常用-->
+<b>粗体</b>
+<del>删除线</del>
+<em>强调，倾斜显示</em>
+<strong>强调内容，加粗显示</strong>
+<!--链接-->
+<a href="https://www.baidu.com">这个是百度</a>
+
+<!--新开窗口-->
+<a href="#" target="_blank">这个是空连接</a>
+
+<!--无序列表
+type 项目符号类型
+-->
+<ul type="none">
+    <li><b>列表</b></li>
+    <li>
+        列表
+        <ul type="circle">
+            <li>
+                子列表
+                <ul type="square">
+                    <li>
+                        小猎豹
+                        <ul>
+                            <li>莫科动物</li>
+                        </ul>
+                    </li>
+                    <li>小猎豹</li>
+                    <li>小猎豹</li>
+                </ul>
+            </li>
+            <li>子列表</li>
+            <li>子列表</li>
+            <li>子列表</li>
+        </ul>
+    </li>
+    <li>列表</li>
+    <li>列表</li>
+    <li>列表</li>
+</ul>
+
+<!--有序列表,数字会根据后面的字格式显示，一般用无序的，单独处理数字
+reversed 倒序
+当属性值跟属性相同 可以省略reversed="reversed"
+-->
+<ol type="a" start="2" reversed>
+    <li>aa</li>
+    <li>aa</li>
+    <li>aa</li>
+    <li>aa</li>
+    <li>aa</li>
+</ol>
+
+<!--自定义列表-->
+<dl>
+    <dt>主题</dt>
+    <dd>描述</dd>
+    <dd>描述</dd>
+    <dd>描述</dd>
+    <dd>描述</dd>
+    <dt>主题</dt>
+    <dd>描述</dd>
+    <dt>主题</dt>
+    <dd>主题</dd>
+    <dt>主题</dt>
+    <dd>主题</dd>
+</dl>
+
+<!--表格-->
+<table border="1" width="300" height="100">
+    <tr>
+        <td colspan="2"></td>
+        <td rowspan="2"></td>
+    </tr>
+    <tr>
+        <td rowspan="2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <td></td>
+    </tr>
+</table>
+
+<!--表单 form 不可以相互嵌套
+元素
+    单行文本框 text
+    单选按钮
+    enctype 表单的编码格式multipart/form-data 二进制，选择文件用。
+-->
+
+<form action="提交的地址" name="表单名称" method="get" enctype="multipart/form-data">
+    姓名：<input type="text" name="username" placeholder="请输入姓名">
+    <br>
+    密码：<input type="password" name="password" placeholder="请输入密码">
+    <br>
+    性别：
+        <input type="radio" name="sex" value="1">男
+        <input type="radio" name="sex" value="2">女
+        <input type="radio" name="sex" value="3">男
+        <input type="radio" name="sex" value="4">女
+    <br>
+    爱好：
+        <input type="checkbox" name="favi" value="5">唱
+        <input type="checkbox" name="favi" value="5">跳
+        <input type="checkbox" name="favi" value="6">rap
+    <br>
+    上传文件：
+        <input type="file" value="这个是选择文件">
+    <br>
+    隐藏域：
+    <!--不给用户看的，服务器还是会收到-->
+        <input type="hidden" name="hidden" id="1" value="隐藏域的值">
+    <br>
+    <p>
+        图片提交按钮：
+        <input type="image" src="abc.png">
+
+    </p>
+
+    <input type="submit" value="登录">
+    <input type="reset" value="重置">
+    <button type="submit">登录</button>
+    <button type="reset">重置</button>
+
+<!--下拉列表-->
+    <br>
+    城市：
+    <select name="city" id="2">
+        <option value="">天津</option>
+        <option value="">天津</option>
+        <option value="">天津</option>
+        <option value="">天津</option>
+        <option value="">天津</option>
+    </select>
+    <select name="" id="">
+        <optgroup label="组名1">
+            <option value="">北京</option>
+            <option value="">北京</option>
+            <option value="">北京</option>
+        </optgroup>
+        <optgroup label="组名2">
+            <option value="">北京</option>
+        </optgroup>
+    </select>
+    <p>
+        多行文本框：
+        <textarea name="lll" id="123" cols="30" rows="10">文本看</textarea>
+    </p>
+    <p>
+<!--        捆绑 label-->
+        性别：
+        <input type="radio" name="sex1" id="man"> <label for="man">男</label>
+        <input type="radio" name="sex1" id="woman"> <label for="woman">女</label>
+    </p>
+</form>
+</body>
+</html>
