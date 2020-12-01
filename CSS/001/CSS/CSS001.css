@@ -1,0 +1,6 @@
+/*宽100，高200，背景色*/
+.two {
+    width: 100px;
+    height: 200px;
+    background-color: orange;
+}
