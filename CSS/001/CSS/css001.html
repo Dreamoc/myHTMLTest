@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>引入CSS</title>
+<!--
+    导入方式 2种
+    1 link：html和css一起加载
+    2 @import 先加载html，后加载css，html大的网速慢会出现没有样式的网页
+-->
     <link rel="stylesheet" href="CSS001.css">
+<!--    图标 16x16-->
+    <link rel="icon" href="">
+    <style>
+        @import "CSS001.css";
+    </style>
 </head>
 <body>
 
@@ -18,15 +28,14 @@ css特点
 -->
 
 <div style="width: 300px;height: 300px;background-color: red">
-    <div>
-        <div>
-
-        </div>
-    </div>
+    敖德萨所大所大所
 </div>
 
-<div class="two">
-
+<div class="one two">
+敖德萨大大所多
 </div>
+<p id="IDSelect">
+    asdadasdsadsa
+</p>
 </body>
 </html>

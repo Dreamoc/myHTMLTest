@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="203a6c2e-b255-450e-8b4c-d4d21213fcb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/001/CSS/CSS001.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/002/001字体属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/002/002列表属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/002/003行高.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/002/004魅族联系.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/images/myPic.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/001/css001.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/001/CSS/css001.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/001/CSS/CSS001.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/001/CSS/CSS001.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/001/CSS/css001.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/001/CSS/css001.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HTML/images" />
       <recent name="$PROJECT_DIR$/CSS/001/CSS" />
     </key>
   </component>
@@ -68,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606816339723</updated>
       <workItem from="1606816341636" duration="563000" />
+      <workItem from="1606874809777" duration="4908000" />
     </task>
     <servers />
   </component>
@@ -84,5 +91,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

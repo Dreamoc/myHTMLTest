@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字体属性具有继承性</title>
+    <style>
+        .box {
+            /*颜色*/
+            color: orange;
+            /*大小*/
+            font-size: 22px;
+            /*加粗*/
+            font-weight: bold;
+            /*倾斜*/
+            font-style: italic;
+            /*字体*/
+            font-family: "Xingkai SC";
+            text-align: center;
+        }
+        b {
+            font-weight: normal;
+        }
+
+        div {
+            text-align: center;
+        }
+        p {
+            text-align: right;
+        }
+        a {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<p class="box">这个是字体</p>
+<b>加粗标签  去掉加粗</b>
+
+<div>盒子</div>
+<!--行内元素 宽度根据字-->
+<a href="#">超链接</a>
+<p>段落</p>
+
+</body>
+</html>
